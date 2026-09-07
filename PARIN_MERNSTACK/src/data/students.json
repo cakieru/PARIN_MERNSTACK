@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Louise Lane Parin",
+        "age": 20,
+        "birthdate": "2003-01-15",
+        "studentNum": "2023-12345",
+        "course": "BSIT",
+        "section": "3-7"
+    },
+    {
+        "id": 2,
+        "name": "John Doe",
+        "age": 21,
+        "birthdate": "2002-05-10",
+        "studentNum": "2023-67890",
+        "course": "BSCS",
+        "section": "3-8"
+    },
+    {
+        "id": 3,
+        "name": "Jane Smith",
+        "age": 22,
+        "birthdate": "2001-09-20",
+        "studentNum": "2023-54321",
+        "course": "BSIT",
+        "section": "3-9"
+    }
+
+]
