@@ -15,6 +15,11 @@ export default function navbar() {
                             Students
                         </Link>
                     </li>
+                    <li>
+                        <Link to="/AddStudent" className="hover:text-gray-300">
+                            Add Student
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </nav>
