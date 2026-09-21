@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Aimiel Pena",
+        "employeeNumber": "F004",
+        "department": "DIT",
+        "specialization": "Programming",
+        "sex": "male"
+    },
+    {
+        "id": 2,
+        "name": "Aragon",
+        "employeeNumber": "F001",
+        "department": "DIT",
+        "specialization": "Programming",
+        "sex": "male"
+    },
+    {
+        "id": 3,
+        "name": "Aragon",
+        "employeeNumber": "F001",
+        "department": "DIT",
+        "specialization": "Programming",
+        "sex": "male"
+    }
+
+]

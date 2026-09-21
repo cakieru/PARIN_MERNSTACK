@@ -4,8 +4,14 @@ import Students from "./pages/Students";
 import Navbar from "./components/navbar";
 import AddStudents from "./pages/AddStudents";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import AddTeacher from "./pages/addTeacher";
+import teacherData from "./data/teachertext.json";
+import Teacher from "./pages/teacher";
+import TeacherDetails from "./pages/teacherDetails";
+import{ useState } from "react";
 
 function App() {
+  const [information, setInformation] = useState(teacherData);
   return (
     <BrowserRouter>
       <Navbar/>
@@ -14,6 +20,9 @@ function App() {
       <Route path="/students" element={<Students />} />
       <Route path="/students/:id" element={<StudentsDetails />} />
       <Route path="/AddStudent" element={<AddStudents />} />
+      <Route path="/AddTeacher" element={<AddTeacher information={information} setInformation={setInformation} />} />
+      <Route path="/teacher" element={<Teacher teacherData={information}/>} />
+      <Route path="/teachers/:id" element={<TeacherDetails />} />
      </Routes>
     </BrowserRouter>
   );

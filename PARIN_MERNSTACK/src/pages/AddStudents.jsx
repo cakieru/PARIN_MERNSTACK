@@ -1,7 +1,8 @@
 import { useState } from "react";
+import  studentData from "../data/students.json";
 
 export default function AddStudents() {
-    const [information, setInformation] = useState([]);
+    const [information, setInformation] = useState(studentData);
 
     const handleSubmit = (e) => {
         e.preventDefault();
